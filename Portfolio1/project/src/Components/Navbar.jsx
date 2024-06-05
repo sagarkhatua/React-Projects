@@ -32,19 +32,18 @@ const Navbar = () => {
               <i className="fa-brands fa-x-twitter text-gray-200 hover:text-gray-400 duration-200"></i>
             </a>
           </button>
-          <button className=" flex justify-center items-center gap-2 bg-indigo-900 w-48 h-10 rounded-xl hover:bg-indigo-400 hover:text-gray-900 duration-300 max-w-screen-sm">
-            <div className=" text-2xl">
-              <FaFileDownload />
-            </div>
-            <p className=" text-sm">
-              <a
-                href="Portfolio1/project/src/assets/Sagar khatua current tech.pdf"
-                download="Sagar khatua current tech.pdf"
-              >
-                Download Resume
-              </a>{" "}
-            </p>
-          </button>
+          <a
+            href="Portfolio1/project/src/assets/Sagar khatua current tech.pdf"
+            download="Sagar khatua current tech.pdf"
+          >
+            <button className=" flex justify-center items-center gap-2 bg-indigo-900 w-48 h-10 rounded-xl hover:bg-indigo-400 hover:text-gray-900 duration-300 max-w-screen-sm">
+              <div className=" text-2xl">
+                <FaFileDownload />
+              </div>
+
+              <p className=" text-sm">Download Resume</p>
+            </button>
+          </a>
         </div>
       </nav>
     </div>
