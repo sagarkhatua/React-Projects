@@ -23,7 +23,7 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className=" w-full lg:w-1/4"
             >
-              <a href="https://weathercheck-sagar.netlify.app/">
+              <a href={prompt.alink}>
                 <img
                   src={prompt.image}
                   width={150}

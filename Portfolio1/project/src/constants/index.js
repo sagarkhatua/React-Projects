@@ -20,6 +20,7 @@ export const PROJECTS = [
     description:
       "A dynamic weather-checking web application, storing real-time data for 200 + cities. Features include temperature, humidity, and wind speed updates. Utilised APIs for accurate information retrieval and designed an intuitive user interface for seamless interaction.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    alink: "https://weathercheck-sagar.netlify.app/",
   },
   {
     title: "Flavor Fusion - Recipe WebApp",
@@ -27,5 +28,6 @@ export const PROJECTS = [
     description:
       "A dynamic recipe web app featuring over 500 recipes! Crafted using HTML, CSS, and JavaScript, this project showcases my proficiency in API integration for fetching and displaying recipes. The App explores a responsive interface designed for seamless culinary inspiration.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    alink: "https://recipee-sagar.netlify.app/",
   },
 ];
