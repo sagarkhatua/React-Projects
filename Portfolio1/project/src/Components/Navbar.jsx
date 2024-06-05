@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFileDownload } from "react-icons/fa";
 
 import { Link } from "react-scroll";
 
@@ -15,7 +16,7 @@ const Navbar = () => {
           <Link>Contact</Link>
         </div> */}
 
-        <div className=" flex  gap-8 text-4xl m-4 items-center justify-center">
+        <div className=" flex flex-wrap gap-8 text-4xl m-4 items-center justify-center">
           <button>
             <a href="https://github.com/sagarkhatua" className="">
               <i className="fa-brands fa-github text-slate-200 hover:bg-purple-400 rounded-full duration-200"></i>
@@ -30,6 +31,19 @@ const Navbar = () => {
             <a href="https://x.com/i_m_sagar404">
               <i className="fa-brands fa-x-twitter text-gray-200 hover:text-gray-400 duration-200"></i>
             </a>
+          </button>
+          <button className=" flex justify-center items-center gap-2 bg-indigo-900 w-48 h-10 rounded-xl hover:bg-indigo-400 hover:text-gray-900 duration-300 max-w-screen-sm">
+            <div className=" text-2xl">
+              <FaFileDownload />
+            </div>
+            <p className=" text-sm">
+              <a
+                href="Portfolio1/project/src/assets/Sagar khatua current tech.pdf"
+                download="Sagar khatua current tech.pdf"
+              >
+                Download Resume
+              </a>{" "}
+            </p>
           </button>
         </div>
       </nav>
