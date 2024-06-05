@@ -23,13 +23,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className=" w-full lg:w-1/4"
             >
-              <img
-                src={prompt.image}
-                width={150}
-                height={200}
-                alt={prompt.title}
-                className=" rounded-lg mb-6"
-              />
+              <a href="https://weathercheck-sagar.netlify.app/">
+                <img
+                  src={prompt.image}
+                  width={150}
+                  height={200}
+                  alt={prompt.title}
+                  className=" rounded-lg mb-6"
+                />
+              </a>
             </motion.div>
 
             <motion.div

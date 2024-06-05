@@ -16,7 +16,7 @@ const App = () => {
     // Simulate loading delay
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 800);
 
     return () => clearTimeout(timeout);
   }, []);
